@@ -1,7 +1,15 @@
-* Node Template
+* Node Commander Template
 
 
 [[../../actions/workflows/build.yml/badge.svg]]
 
 
-A simple node project template.
+A simple node cli template that uses commander.js.
+
+# Building and running
+
+#+BEGIN_SRC sh
+npm install
+npm link
+node-commander-template hello Jim
+#+END_SRC
